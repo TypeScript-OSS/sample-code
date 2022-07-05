@@ -11,3 +11,8 @@ The general pattern for use of a sample project is:
 - `cd samples/<project>`
 - `yarn install`
 - `yarn start`
+
+## Sample Projects
+
+- react-bound-html-input - Demonstrates several ways to use bindings with otherwise standard HTML inputs.  However, the same basic techniques can also be applied to other inputs, including things like Material-UI TextFields.
+- react-waitable-color-mixer - Demonstrates using waitables to download data (named colors in this example, locking waitables until they're needed, deriving values from waitable and bindings, and creating a dynamic UI putting it all together.
