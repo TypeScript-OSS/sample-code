@@ -62,7 +62,7 @@ export const App = () => {
 
   const onDoneClick = () =>
     finalizeValidation(formValidator, {
-      bindings: { firstName, lastName, age, favoriteNumber, guessedMagicNumber },
+      fieldBindings: { firstName, lastName, age, favoriteNumber, guessedMagicNumber },
       onValid: ({ firstName, lastName, age, favoriteNumber, guessedMagicNumber }) => {
         alert(`You did it! ${firstName} ${lastName} ${age ?? ''} ${favoriteNumber ?? ''} ${guessedMagicNumber ?? ''}`);
       }
