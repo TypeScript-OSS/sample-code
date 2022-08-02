@@ -7,25 +7,25 @@
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
-    "react-bindings": "^1.4.1",
+    "react-bindings": "^1.5.0",
     "react-dom": "^18.2.0",
-    "react-validatables": "1.0.0-alpha.5",
-    "react-waitables": "^1.2.0"
+    "react-validatables": "1.1.1",
+    "react-waitables": "^1.4.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
-    "@typescript-eslint/eslint-plugin": "^5.30.7",
-    "@typescript-eslint/parser": "^5.30.7",
-    "eslint": "8.20.0",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "8.21.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-typescript": "^3.2.7",
+    "eslint-import-resolver-typescript": "^3.4.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-tsdoc": "^0.2.16",
-    "i18next": "^21.8.14",
+    "i18next": "^21.8.16",
     "prettier": "2.7.1",
     "react-scripts": "^5.0.1",
     "typescript": "^4.7.4"
