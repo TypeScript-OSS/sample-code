@@ -1,0 +1,51 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "A todo list editor using react-bindings, react-waitables, and yaschema",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "i18next": "^21.9.1",
+    "react": "^18.2.0",
+    "react-bindings": "^1.6.3",
+    "react-dom": "^18.2.0",
+    "react-validatables": "^1.1.5",
+    "react-waitables": "^1.5.7",
+    "uuid": "^8.3.2",
+    "yaschema": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint": "8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-tsdoc": "^0.2.16",
+    "prettier": "2.7.1",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "start": "GENERATE_SOURCEMAP=false npx react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
