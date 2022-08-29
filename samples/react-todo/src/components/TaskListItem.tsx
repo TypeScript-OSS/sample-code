@@ -17,30 +17,27 @@ export const TaskListItem = ({ item, onChange, onRemove }: TaskListItemProps) =>
   const isComplete = useBinding(() => item.isComplete, { id: 'isComplete' });
   const title = useBinding(() => item.title, { id: 'title' });
 
-  const onRemoveClick = useCallback(() => onRemove?.(item.id), [item, onRemove]);
-
-  useBindingEffect(isComplete, async (isComplete, isCompleteBinding) => {
-    const unlock = lockAllBindings([isCompleteBinding, title]);
-    try {
-      await onChange?.({ ...item, isComplete, title: title.get() });
-    } finally {
-      unlock();
-    }
-  });
-
-  useBindingEffect(title, async () => {
+  const saveChanges = useCallback(async () => {
     const unlock = lockAllBindings([isComplete, title]);
     try {
       await onChange?.({ ...item, isComplete: isComplete.get(), title: title.get() });
     } finally {
       unlock();
     }
-  });
+  }, [isComplete, onChange, title]);
+
+  const onRemoveClick = useCallback(() => onRemove?.(item.id), [item, onRemove]);
+
+  const onEnterPressed = useCallback(() => saveChanges(), [saveChanges]);
+
+  useBindingEffect(isComplete, saveChanges);
+
+  useBindingEffect(title, saveChanges, { limitMSec: 1000 });
 
   return (
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <CheckboxInput value={isComplete} />
-      <TaskListItemTitle title={title} />
+      <TaskListItemTitle title={title} onEnterPressed={onEnterPressed} />
       <button onClick={onRemoveClick}>x</button>
     </div>
   );
