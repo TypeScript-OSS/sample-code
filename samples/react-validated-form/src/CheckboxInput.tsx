@@ -1,7 +1,10 @@
-import React, { ChangeEventHandler, useCallback } from 'react';
-import { Binding, BindingsConsumer, resolveTypeOrDeferredType } from 'react-bindings';
-import { ValidationResult } from 'react-validatables';
-import { Waitable, WaitablesConsumer } from 'react-waitables';
+import type { ChangeEventHandler } from 'react';
+import React, { useCallback } from 'react';
+import type { Binding } from 'react-bindings';
+import { BindingsConsumer, resolveTypeOrDeferredType } from 'react-bindings';
+import type { ValidationResult } from 'react-validatables';
+import type { Waitable } from 'react-waitables';
+import { WaitablesConsumer } from 'react-waitables';
 
 export interface CheckboxInputProps {
   value: Binding<boolean>;

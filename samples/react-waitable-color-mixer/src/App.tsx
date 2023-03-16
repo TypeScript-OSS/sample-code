@@ -3,7 +3,8 @@ import React from 'react';
 import { BindingsConsumer, useBinding, useBindingEffect, useDerivedBinding } from 'react-bindings';
 import { useDerivedWaitable, WaitablesConsumer } from 'react-waitables';
 
-import { ColorDataSource, colorDataSources } from './color-data-source';
+import type { ColorDataSource } from './color-data-source';
+import { colorDataSources } from './color-data-source';
 import { ColorBox } from './ColorBox';
 import { RangeInput } from './RangeInput';
 import { SelectInput } from './SelectInput';

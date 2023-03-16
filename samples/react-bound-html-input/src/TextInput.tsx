@@ -1,5 +1,7 @@
-import React, { ChangeEventHandler, useCallback } from 'react';
-import { Binding, BindingsConsumer } from 'react-bindings';
+import type { ChangeEventHandler } from 'react';
+import React, { useCallback } from 'react';
+import type { Binding } from 'react-bindings';
+import { BindingsConsumer } from 'react-bindings';
 
 export interface TextInputProps {
   value: Binding<string>;

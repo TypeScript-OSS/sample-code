@@ -1,7 +1,8 @@
-import { ReadonlyBinding, useDerivedBinding } from 'react-bindings';
+import type { ReadonlyBinding } from 'react-bindings';
+import { useDerivedBinding } from 'react-bindings';
 import { useDerivedWaitable } from 'react-waitables';
 
-import { ColorDataSource } from './color-data-source';
+import type { ColorDataSource } from './color-data-source';
 import { LOCAL_COLORS } from './local-color-data';
 import { useRemoteColorData } from './use-remote-color-data';
 

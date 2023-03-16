@@ -1,4 +1,5 @@
-import { UseWaitableArgs, useWaitableFunction } from 'react-waitables';
+import type { UseWaitableArgs } from 'react-waitables';
+import { useWaitableFunction } from 'react-waitables';
 
 /** Loads color data from https://raw.githubusercontent.com/bahamas10/css-color-names/master/css-color-names.json */
 export const useRemoteColorData = (fwd: Omit<UseWaitableArgs<Record<string, string>>, 'id'> & { id?: string }) =>

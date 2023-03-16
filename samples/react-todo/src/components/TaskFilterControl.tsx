@@ -1,7 +1,8 @@
 import React, { useCallback } from 'react';
-import { Binding, BindingsConsumer } from 'react-bindings';
+import type { Binding } from 'react-bindings';
+import { BindingsConsumer } from 'react-bindings';
 
-import { TodoItemFilterMode } from '../types/TodoItemFilterMode';
+import type { TodoItemFilterMode } from '../types/TodoItemFilterMode';
 
 export interface TaskFilterControlProps {
   filter: Binding<TodoItemFilterMode>;

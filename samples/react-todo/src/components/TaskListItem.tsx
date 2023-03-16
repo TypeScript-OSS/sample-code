@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react';
 import { lockAllBindings, useBinding, useBindingEffect } from 'react-bindings';
-import { TypeOrPromisedType } from 'react-waitables';
+import type { TypeOrPromisedType } from 'react-waitables';
 
-import { TodoItem } from '../types/TodoItem';
+import type { TodoItem } from '../types/TodoItem';
 import { CheckboxInput } from './CheckboxInput';
 import { TaskListItemTitle } from './TaskListItemTitle';
 

@@ -1,7 +1,8 @@
 import React from 'react';
-import { Binding, useBinding, useBindingEffect } from 'react-bindings';
-import { ValidationResult } from 'react-validatables';
-import { Waitable } from 'react-waitables';
+import type { Binding } from 'react-bindings';
+import { useBinding, useBindingEffect } from 'react-bindings';
+import type { ValidationResult } from 'react-validatables';
+import type { Waitable } from 'react-waitables';
 
 import { TextInput } from './TextInput';
 

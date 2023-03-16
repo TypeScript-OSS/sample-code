@@ -1,9 +1,10 @@
 import React from 'react';
-import { BindingsConsumer, ReadonlyBinding, useDerivedBinding } from 'react-bindings';
-import { TypeOrPromisedType } from 'react-waitables';
+import type { ReadonlyBinding } from 'react-bindings';
+import { BindingsConsumer, useDerivedBinding } from 'react-bindings';
+import type { TypeOrPromisedType } from 'react-waitables';
 
-import { TodoItem } from '../types/TodoItem';
-import { TodoItemFilterMode } from '../types/TodoItemFilterMode';
+import type { TodoItem } from '../types/TodoItem';
+import type { TodoItemFilterMode } from '../types/TodoItemFilterMode';
 import { doesTodoItemMatchFilter } from '../utils/doesTodoItemMatchFilter';
 import { TaskListItem } from './TaskListItem';
 

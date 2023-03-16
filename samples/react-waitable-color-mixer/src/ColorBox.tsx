@@ -1,5 +1,6 @@
 import React from 'react';
-import { BindingsConsumer, ifBinding, resolveTypeOrBindingType, TypeOrBindingType } from 'react-bindings';
+import type { TypeOrBindingType } from 'react-bindings';
+import { BindingsConsumer, ifBinding, resolveTypeOrBindingType } from 'react-bindings';
 
 export interface ColorBoxProps {
   /** The color can be provided either as a binding or directly */

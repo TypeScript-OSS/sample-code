@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { useBinding } from 'react-bindings';
 import { changeStringTrim, checkStringNotEmpty, useValidator } from 'react-validatables';
-import { TypeOrPromisedType } from 'react-waitables';
+import type { TypeOrPromisedType } from 'react-waitables';
 
 import { TextInput } from './TextInput';
 

@@ -1,8 +1,8 @@
 # sample-code
 
-This repository contains sample code making use of Passfolio's open source projects.
+This repository contains sample code making use of TypeScript OSS's open source projects.
 
-These include examples for at least [react-bindings](https://www.npmjs.com/package/react-bindings) and [react-waitables](https://www.npmjs.com/package/react-waitables), but for a complete listing of our open source projects, see [Open Source @ Passfolio](https://github.com/Passfolio).
+These include examples for at least [react-bindings](https://www.npmjs.com/package/react-bindings) and [react-waitables](https://www.npmjs.com/package/react-waitables), but for a complete listing of our open source projects, see [TypeScript OSS](https://github.com/TypeScript-OSS).
 
 Each sub-folder of the "samples" folder includes a project that can be installed and run independently.
 

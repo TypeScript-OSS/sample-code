@@ -1,5 +1,5 @@
 import React from 'react';
-import { Binding } from 'react-bindings';
+import type { Binding } from 'react-bindings';
 
 import { TextInput } from './TextInput';
 

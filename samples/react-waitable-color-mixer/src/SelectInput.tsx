@@ -1,11 +1,7 @@
-import React, { ChangeEventHandler, useCallback } from 'react';
-import {
-  Binding,
-  BindingsConsumer,
-  ifBinding,
-  resolveTypeOrDeferredTypeOrBindingType,
-  TypeOrDeferredTypeOrBindingType
-} from 'react-bindings';
+import type { ChangeEventHandler } from 'react';
+import React, { useCallback } from 'react';
+import type { Binding, TypeOrDeferredTypeOrBindingType } from 'react-bindings';
+import { BindingsConsumer, ifBinding, resolveTypeOrDeferredTypeOrBindingType } from 'react-bindings';
 
 export interface SelectInputProps<T extends string = string> {
   /** Options either provided in a binding, as the result of a function call, or directly */

@@ -1,6 +1,7 @@
 import { useRef } from 'react';
-import { Binding, useBindingEffect } from 'react-bindings';
-import { Schema } from 'yaschema';
+import type { Binding } from 'react-bindings';
+import { useBindingEffect } from 'react-bindings';
+import type { Schema } from 'yaschema';
 
 export const useConnectBindingWithLocalStorage = <T>(binding: Binding<T>, key: string, schema?: Schema<T>) => {
   const isFirstRender = useRef(true);
