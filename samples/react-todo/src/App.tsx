@@ -7,8 +7,10 @@ import { TaskInput } from './components/TaskInput';
 import { TaskList } from './components/TaskList';
 import { TaskListControls } from './components/TaskListControls';
 import { useConnectBindingWithLocalStorage } from './hooks/useConnectBindingWithLocalStorage';
-import { TodoItem, todoItemsSchema } from './types/TodoItem';
-import { TodoItemFilterMode, todoItemFilterModeSchema } from './types/TodoItemFilterMode';
+import type { TodoItem } from './types/TodoItem';
+import { todoItemsSchema } from './types/TodoItem';
+import type { TodoItemFilterMode } from './types/TodoItemFilterMode';
+import { todoItemFilterModeSchema } from './types/TodoItemFilterMode';
 
 export const App = () => {
   const items = useBinding<TodoItem[]>(() => [], { id: 'items' });
