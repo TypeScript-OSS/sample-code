@@ -6,14 +6,14 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "i18next": "^23.0.1",
+    "i18next": "^23.0.2",
     "react": "^18.2.0",
     "react-bindings": "^1.13.2",
     "react-dom": "^18.2.0",
     "react-validatables": "^1.4.1",
     "react-waitables": "^1.8.2",
     "uuid": "^9.0.0",
-    "yaschema": "^3.0.1"
+    "yaschema": "^3.0.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.12",
