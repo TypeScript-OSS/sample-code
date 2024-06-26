@@ -561,12 +561,12 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-client-run-queue@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/client-run-queue/-/client-run-queue-2.3.0.tgz#760a029b340c463214add7079b1cc5f19b17e283"
-  integrity sha512-VwMsPDmPcSrla9OD8aGZ/SfxUTQYH/eIfI9SZnDKgSrKmF3JW79shftBILQftyZ6IMdsjvM3ZBoU6kNajf3IcQ==
+client-run-queue@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/client-run-queue/-/client-run-queue-2.3.1.tgz#af241dfbf67f3f3c3e770f273262bb2b1a0c1071"
+  integrity sha512-slbNU4kHqqZdPj07GpHgDNaSpMPvJBLuWGVccaJ96e9XXKEvdG/5ZrwMXcA9d6OYFuo5dh41RmpFKoWEi39UJQ==
   dependencies:
-    doublell "1.0.0"
+    doublell "1.0.1"
     heap "^0.2.7"
     queue-microtask "^1.2.3"
 
@@ -679,10 +679,10 @@ doctrine@^2.1.0:
   dependencies:
     esutils "^2.0.2"
 
-doublell@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/doublell/-/doublell-1.0.0.tgz#79d79d93575527314dcba3bf9bb7513e8d43abb0"
-  integrity sha512-yWA/zZgeSmUfprZwhSabqvRdiC6HWIPDyh0GiUWeAvqJTki157vYFdzpnKpHZs0pIpyzRG5vXM99PNrZW9c6Iw==
+doublell@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/doublell/-/doublell-1.0.1.tgz#5d52166744da4ec03f08a518b26bea0e6233dab8"
+  integrity sha512-TrsCYyz353lqa0JnbT9TmOmq5wvmqIjbAdEIAdorGLKQrGEn4mDyRZoo5XvnydVqyFVFI7hZR+Jj0N8Ha5latg==
 
 eastasianwidth@^0.2.0:
   version "0.2.0"
@@ -1904,13 +1904,13 @@ queue-microtask@^1.2.2, queue-microtask@^1.2.3:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-bindings@^1.19.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/react-bindings/-/react-bindings-1.19.0.tgz#1b57b088ca1ac22c5ae76c6751b7740098ddbd0b"
-  integrity sha512-BGBeFhUo2rBMSjfNSmgT/veYeXzvlZOnpR3HKulZP6U22gFrx46aFRZWcvH08Ga9wi9CwkPFb/SlP2ObjuFwYA==
+react-bindings@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/react-bindings/-/react-bindings-1.19.1.tgz#2e613a1d7a4c0846509a0e1add05569a0ee96f7d"
+  integrity sha512-L6yvetViDgFlxoOvw5g1Xyo37l6haaYRrIXVBXt2EozCyTIHlSOp1JMojJUNTDHK+k4qXb+D6dzv3tXVOx1NNw==
   dependencies:
-    client-run-queue "2.3.0"
-    doublell "1.0.0"
+    client-run-queue "2.3.1"
+    doublell "1.0.1"
     is-promise "^4.0.0"
     lodash "4.17.21"
     lodash-es "4.17.21"
@@ -2101,7 +2101,6 @@ slash@^3.0.0:
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
-  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==

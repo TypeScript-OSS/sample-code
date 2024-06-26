@@ -3302,12 +3302,12 @@ clean-css@^5.2.2:
   dependencies:
     source-map "~0.6.0"
 
-client-run-queue@2.3.0, client-run-queue@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/client-run-queue/-/client-run-queue-2.3.0.tgz#760a029b340c463214add7079b1cc5f19b17e283"
-  integrity sha512-VwMsPDmPcSrla9OD8aGZ/SfxUTQYH/eIfI9SZnDKgSrKmF3JW79shftBILQftyZ6IMdsjvM3ZBoU6kNajf3IcQ==
+client-run-queue@2.3.1, client-run-queue@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/client-run-queue/-/client-run-queue-2.3.1.tgz#af241dfbf67f3f3c3e770f273262bb2b1a0c1071"
+  integrity sha512-slbNU4kHqqZdPj07GpHgDNaSpMPvJBLuWGVccaJ96e9XXKEvdG/5ZrwMXcA9d6OYFuo5dh41RmpFKoWEi39UJQ==
   dependencies:
-    doublell "1.0.0"
+    doublell "1.0.1"
     heap "^0.2.7"
     queue-microtask "^1.2.3"
 
@@ -4025,10 +4025,10 @@ dotenv@^10.0.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
   integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
 
-doublell@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/doublell/-/doublell-1.0.0.tgz#79d79d93575527314dcba3bf9bb7513e8d43abb0"
-  integrity sha512-yWA/zZgeSmUfprZwhSabqvRdiC6HWIPDyh0GiUWeAvqJTki157vYFdzpnKpHZs0pIpyzRG5vXM99PNrZW9c6Iw==
+doublell@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/doublell/-/doublell-1.0.1.tgz#5d52166744da4ec03f08a518b26bea0e6233dab8"
+  integrity sha512-TrsCYyz353lqa0JnbT9TmOmq5wvmqIjbAdEIAdorGLKQrGEn4mDyRZoo5XvnydVqyFVFI7hZR+Jj0N8Ha5latg==
 
 duplexer@^0.1.2:
   version "0.1.2"
@@ -4053,9 +4053,9 @@ ejs@^3.1.6:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.796:
-  version "1.4.811"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.811.tgz#031c8b101e7d0a7cde1dfdb0623dbdb5e19655cd"
-  integrity sha512-CDyzcJ5XW78SHzsIOdn27z8J4ist8eaFLhdto2hSMSJQgsiwvbv2fbizcKUICryw1Wii1TI/FEkvzvJsR3awrA==
+  version "1.4.812"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.812.tgz#21b78709c5a13af5d5c688d135a22dcea7617acf"
+  integrity sha512-7L8fC2Ey/b6SePDFKR2zHAy4mbdp1/38Yk5TsARO66W3hC5KEaeKMMHoxwtuH+jcu2AYLSn9QX04i95t6Fl1Hg==
 
 emittery@^0.10.2:
   version "0.10.2"
@@ -8021,13 +8021,13 @@ react-app-polyfill@^3.0.0:
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
 
-react-bindings@^1.19.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/react-bindings/-/react-bindings-1.19.0.tgz#1b57b088ca1ac22c5ae76c6751b7740098ddbd0b"
-  integrity sha512-BGBeFhUo2rBMSjfNSmgT/veYeXzvlZOnpR3HKulZP6U22gFrx46aFRZWcvH08Ga9wi9CwkPFb/SlP2ObjuFwYA==
+react-bindings@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/react-bindings/-/react-bindings-1.19.1.tgz#2e613a1d7a4c0846509a0e1add05569a0ee96f7d"
+  integrity sha512-L6yvetViDgFlxoOvw5g1Xyo37l6haaYRrIXVBXt2EozCyTIHlSOp1JMojJUNTDHK+k4qXb+D6dzv3tXVOx1NNw==
   dependencies:
-    client-run-queue "2.3.0"
-    doublell "1.0.0"
+    client-run-queue "2.3.1"
+    doublell "1.0.1"
     is-promise "^4.0.0"
     lodash "4.17.21"
     lodash-es "4.17.21"
@@ -8150,23 +8150,23 @@ react-scripts@^5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-validatables@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/react-validatables/-/react-validatables-1.6.0.tgz#919e6db7c9f05e36efc6d4aea84e12fa2d52741a"
-  integrity sha512-mO4no3lWu2Fe53uWNsAOK96mXehDA+/mtqny8EFCoRLhfToZLjF5d6z8Em4sh8Vrj6LQsOQo9lDiWGVD3r44qA==
+react-validatables@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/react-validatables/-/react-validatables-1.6.1.tgz#42f3e1e768b6ff0a8ec08ab1ded1be0318e4a0ff"
+  integrity sha512-XY1Fi7Wgz++64bQrRj0Ks6KvLUrw54g55emDX+5zCJkA080wsoqSYjYObJLR3bPMkqdlTsxtxs/8hXa/Q0NkRQ==
   dependencies:
-    client-run-queue "^2.3.0"
-    react-bindings "^1.19.0"
-    react-waitables "^2.2.0"
+    client-run-queue "^2.3.1"
+    react-bindings "^1.19.1"
+    react-waitables "^2.2.1"
 
-react-waitables@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-waitables/-/react-waitables-2.2.0.tgz#f04b00703e22e5cdb85fadde9a20ad8afd5ea2c6"
-  integrity sha512-bsH5H2TZdJu9d0qlXbnPemDtUZic1P3QZG7jAw90WschgLMUfJSjKF50N01ENFEU1tDThsi1F5A2BnCfyjbHsQ==
+react-waitables@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-waitables/-/react-waitables-2.2.1.tgz#03367c809aae2fdd82f6a283ded1267e9f367988"
+  integrity sha512-nStHo7DFJXX2SlZpGQah/5lfkEubWpTpFDWxi/lxKmYU2R131Hmhje94VfTqQkz7xr3aN7MyYqLVYWf95XK44Q==
   dependencies:
-    client-run-queue "^2.3.0"
+    client-run-queue "^2.3.1"
     is-promise "^4.0.0"
-    react-bindings "^1.19.0"
+    react-bindings "^1.19.1"
 
 react@^18.3.1:
   version "18.3.1"
@@ -10068,10 +10068,10 @@ yargs@^16.2.0:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-yaschema@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/yaschema/-/yaschema-3.5.0.tgz#77ee08c5ae87ca55a95e7d3b3f1f593ec0b1f424"
-  integrity sha512-CBw9sRS00nNYzvTEdwnPD9aE4gm3COFSCHCOQI2FniFMZCOhixfLCmVKq67+jI+LrgdsxTF5Dkh6uBjkrF5l4g==
+yaschema@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/yaschema/-/yaschema-3.5.1.tgz#784240e755fe16ca384a2eeb3d772d8c7b368568"
+  integrity sha512-eoj9luLp+ri/U5IjUzAhmdMLpa6Fwz01vOw475ruUJ8qkaqIs0T9b0W4dS9HTPwNS6bZpX+EtnIR/bOBl8X0SA==
   dependencies:
     lodash "^4.17.21"
     lodash-es "^4.17.21"
