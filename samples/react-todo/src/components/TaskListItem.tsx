@@ -24,7 +24,7 @@ export const TaskListItem = ({ item, onChange, onRemove }: TaskListItemProps) =>
     } finally {
       unlock();
     }
-  }, [isComplete, onChange, title]);
+  }, [isComplete, item, onChange, title]);
 
   const onRemoveClick = useCallback(() => onRemove?.(item.id), [item, onRemove]);
 
