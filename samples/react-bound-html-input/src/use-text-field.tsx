@@ -1,7 +1,7 @@
 import React from 'react';
 import { useBinding } from 'react-bindings';
 
-import { TextInput } from './TextInput';
+import { TextInput } from './TextInput.js';
 
 /**
  * Creates a binding that not only stores a value but has extra properties for clearing its value and for rendering the text field as a

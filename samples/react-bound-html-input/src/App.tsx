@@ -1,9 +1,9 @@
 import React, { useCallback } from 'react';
 import { BindingsConsumer, useBinding } from 'react-bindings';
 
-import { TextInput } from './TextInput';
-import { useTextField } from './use-text-field';
-import { useTextInput } from './use-text-input';
+import { TextInput } from './TextInput.js';
+import { useTextField } from './use-text-field.js';
+import { useTextInput } from './use-text-input.js';
 
 export const App = () => {
   // For Method 1
@@ -36,7 +36,7 @@ export const App = () => {
       <hr />
 
       <h1>Method 2</h1>
-      <p>Use a hook to create a conceptual "field" with it's own bound value and renderer</p>
+      <p>Use a hook to create a conceptual &quot;field&quot; with it&apos;s own bound value and renderer</p>
       <div>
         <inputField.Field />
         &nbsp;
@@ -50,7 +50,7 @@ export const App = () => {
       <hr />
 
       <h1>Method 3</h1>
-      <p>Use a binding with added "Component" and "clear" fields</p>
+      <p>Use a binding with added &quot;Component&quot; and &quot;clear&quot; fields</p>
       <div>
         <textField.Component />
         &nbsp;

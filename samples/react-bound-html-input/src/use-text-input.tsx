@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { useBinding } from 'react-bindings';
 
-import { TextInput } from './TextInput';
+import { TextInput } from './TextInput.js';
 
 /**
  * Creates a memo'd object with a value binding and a "Field" component for rendering the input.
@@ -11,5 +11,5 @@ import { TextInput } from './TextInput';
 export const useTextInput = ({ id }: { id: string }) => {
   const value = useBinding(() => '', { id });
 
-  return useMemo(() => ({ Field: () => <TextInput value={value} />, value }), []);
+  return useMemo(() => ({ Field: () => <TextInput value={value} />, value }), [value]);
 };
